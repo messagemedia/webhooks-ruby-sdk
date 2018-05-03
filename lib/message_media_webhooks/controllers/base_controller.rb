@@ -11,7 +11,7 @@ module MessageMediaWebhooks
       @http_call_back = http_call_back
 
       @global_headers = {
-        'user-agent' => 'messagesmedia-webhooks'
+        'user-agent' => 'messagemedia-webhooks-ruby-sdk-1.0.0'
       }
       @logger = Logging.logger[self]
       @logger.info("Instantiated controller class.")
