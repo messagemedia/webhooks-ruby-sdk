@@ -21,17 +21,20 @@ require_relative 'message_media_webhooks/http/auth/basic_auth.rb'
 
 # Models
 require_relative 'message_media_webhooks/models/base_model.rb'
-require_relative 'message_media_webhooks/models/retrieve_response.rb'
-require_relative 'message_media_webhooks/models/update_request_15.rb'
-require_relative 'message_media_webhooks/models/headers.rb'
-require_relative 'message_media_webhooks/models/update_request.rb'
-require_relative 'message_media_webhooks/models/create_request.rb'
+require_relative 'message_media_webhooks/models/create_webhook_request.rb'
+require_relative 'message_media_webhooks/models/update_webhook_request.rb'
 
 # Exceptions
 require_relative 'message_media_webhooks/exceptions/api_exception.rb'
+require_relative 'message_media_webhooks/exceptions/update_webhook_400' \
+                 '_response_exception.rb'
+require_relative 'message_media_webhooks/exceptions/retrieve_webhook_400' \
+                 '_response_exception.rb'
+require_relative 'message_media_webhooks/exceptions/create_webhook_400' \
+                 '_response_exception.rb'
 
 require_relative 'message_media_webhooks/configuration.rb'
 
 # Controllers
 require_relative 'message_media_webhooks/controllers/base_controller.rb'
-require_relative 'message_media_webhooks/controllers/api_controller.rb'
+require_relative 'message_media_webhooks/controllers/webhooks_controller.rb'

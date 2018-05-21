@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'message_media_webhooks'
-  s.version = '1.0.0'
+  s.version = '1.4.0'
   s.summary = 'message_media_webhooks'
   s.description = 'TODO: Add a description'
   s.authors = ['APIMatic SDK Generator']

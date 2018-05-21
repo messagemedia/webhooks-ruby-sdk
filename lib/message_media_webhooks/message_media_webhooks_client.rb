@@ -4,10 +4,10 @@
 module MessageMediaWebhooks
   #  message_media_webhooks client class.
   class MessageMediaWebhooksClient
-    # Singleton access to client controller.
-    # @return [APIController] Returns the controller instance.
-    def client
-      APIController.instance
+    # Singleton access to webhooks controller.
+    # @return [WebhooksController] Returns the controller instance.
+    def webhooks
+      WebhooksController.instance
     end
 
     # Returns the configuration class for easy access.
