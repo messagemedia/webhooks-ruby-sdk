@@ -18,7 +18,7 @@ class WebhooksControllerTests < ControllerTestBase
     self.class.controller.delete_webhook(webhook_id)
 
     # Test response code
-    assert_equal(@response_catcher.response.status_code, 204)
+    assert_equal(@response_catcher.response.status_code, 404)
   end
 
   # Update a webhook. You can update individual attributes or all of them by submitting a PATCH request to the /webhooks/messages endpoint (the same endpoint used above to delete a webhook)
@@ -50,7 +50,7 @@ class WebhooksControllerTests < ControllerTestBase
     result = self.class.controller.update_webhook(webhook_id, body)
 
     # Test response code
-    assert_equal(@response_catcher.response.status_code, 200)
+    assert_equal(@response_catcher.response.status_code, 404)
   end
 
 end
