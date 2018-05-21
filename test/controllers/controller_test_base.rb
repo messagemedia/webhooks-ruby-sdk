@@ -1,6 +1,7 @@
 
 require 'json'
 require 'test/unit'
+require 'message_media_webhooks/configuration.rb'
 require 'message_media_webhooks.rb'
 require_relative '../test_helper.rb'
 require_relative '../http_response_catcher.rb'
