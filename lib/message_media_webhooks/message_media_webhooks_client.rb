@@ -1,5 +1,4 @@
-# This file was automatically generated for MessageMedia by APIMATIC v2.0
-# ( https://apimatic.io ).
+
 
 module MessageMediaWebhooks
   #  message_media_webhooks client class.

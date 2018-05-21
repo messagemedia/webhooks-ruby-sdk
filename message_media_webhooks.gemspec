@@ -1,12 +1,12 @@
 Gem::Specification.new do |s|
   s.name = 'message_media_webhooks'
-  s.version = '1.4.0'
+  s.version = '1.0.0'
   s.summary = 'message_media_webhooks'
-  s.description = 'TODO: Add a description'
-  s.authors = ['APIMatic SDK Generator']
-  s.email = 'support@apimatic.io'
-  s.homepage = 'https://apimatic.io'
-  s.license = 'MIT'
+  s.description = 'The MessageMedia Webhooks allows you to subscribe to one or several events and when one of those events is triggered, an HTTP request is sent to the URL of your choice along with the message or payload. In simpler terms, it allows applications to "speak" to one another and get notified automatically when something new happens.'
+  s.authors = ['MessageMedia Developers']
+  s.email = 'developers@messagemedia.com'
+  s.homepage = 'https://developers.messagemedia.com'
+  s.license = 'Apache-2.0'
   s.add_dependency('logging', '~> 2.0')
   s.add_dependency('faraday', '~> 0.10.0')
   s.add_dependency('test-unit', '~> 3.1.5')

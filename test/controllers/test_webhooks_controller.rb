@@ -1,4 +1,3 @@
-# This file was automatically generated for MessageMedia by APIMATIC v2.0 ( https://apimatic.io ).
 
 require_relative 'controller_test_base'
 
