@@ -1,5 +1,3 @@
-# This file was automatically generated for MessageMedia by APIMATIC v2.0
-# ( https://apimatic.io ).
 
 module MessageMediaWebhooks
   # An interface for the methods that an HTTP Client must implement.

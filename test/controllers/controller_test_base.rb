@@ -1,4 +1,3 @@
-# This file was automatically generated for MessageMedia by APIMATIC v2.0 ( https://apimatic.io ).
 
 require 'json'
 require 'test/unit'
@@ -14,12 +13,13 @@ class ControllerTestBase < Test::Unit::TestCase
   end
 
   # Called only once for a test class before any test has executed.
-  def self.startup		
+  def self.startup
     @@api_client = MessageMediaWebhooksClient.new
     @@request_timeout = 30
     @@assert_precision = 0.01
 
-
+    Configuration.basic_auth_user_name = ENV['MessageMediaApiTestsKey']
+    Configuration.basic_auth_password = ENV['MessageMediaApiTestsSecret']
   end
 
   # Called once before every test case.
