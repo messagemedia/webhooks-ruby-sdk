@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-  s.name = 'message_media_webhooks'
+  s.name = 'messagemedia_webhooks_sdk'
   s.version = '1.0.0'
   s.summary = 'message_media_webhooks'
   s.description = 'The MessageMedia Webhooks allows you to subscribe to one or several events and when one of those events is triggered, an HTTP request is sent to the URL of your choice along with the message or payload. In simpler terms, it allows applications to "speak" to one another and get notified automatically when something new happens.'
