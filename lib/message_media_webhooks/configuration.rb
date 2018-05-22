@@ -2,9 +2,6 @@
 
 module MessageMediaWebhooks
 
-  Logging.logger.root.appenders = Logging.appenders.stdout
-  Logging.logger.root.level = :info
-
   # All configuration including auth info and base URI for the API access
   # are configured in this class.
   class Configuration
