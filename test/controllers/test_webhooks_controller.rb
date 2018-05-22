@@ -10,8 +10,7 @@ class WebhooksControllerTests < ControllerTestBase
   def test_create_webhook_1()
     body = CreateWebhookRequest.new("http://webhook1.com","POST","JSON",nil,["ENROUTE_DR"],"{\"id\":\"$mtId\",\"status\":\"$statusCode\"}")
 
-    # Perform the API call through the SDK function
-    result = self.class.controller.create_webhook(body)
+    self.class.controller.create_webhook(body)
 
     assert_equal(@response_catcher.response.status_code, 201)
   end
