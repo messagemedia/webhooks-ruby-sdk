@@ -1,4 +1,4 @@
-# MessageMedia Webhooks NodeJS SDK
+# MessageMedia Webhooks Ruby SDK
 [![Travis Build Status](https://api.travis-ci.org/messagemedia/webhooks-ruby-sdk.svg?branch=master)](https://travis-ci.org/messagemedia/webhooks-ruby-sdk)
 [![Gem Version](https://badge.fury.io/rb/messagemedia_webhooks_sdk.svg)](https://badge.fury.io/rb/messagemedia_webhooks_sdk)
 
